@@ -10,6 +10,7 @@ public class DeckOfCardsCtrl {
 	public static final int maxCardsPerSuit = 13;
 	
 	//Set the suits
+	//Consider using enums in the future for this and possibly ranks
 	private String[] cardSuits = {"Diamonds","Spades","Hearts","Clubs"};
 	
 	//Allow interaction
